@@ -1,0 +1,143 @@
+.mainstyle {
+  flex: 1;
+}
+
+.sectionstyle {
+  max-width: 850px;
+  position: relative;
+  margin: auto;
+  padding: auto;
+}
+
+.field {
+  display: flex;
+  flex-direction: row;
+}
+
+.spacing {
+  justify-content: left;
+}
+
+.box1 {
+  background-color: white;
+  width: 275px;
+  height: 605px;
+  border: 2px solid #333333;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  margin-top: 10px;
+}
+
+.box2 {
+  background-color: white;
+  width: 550px;
+  height: 450px;
+  border: 2px solid #333333;
+  padding-top: 175px;
+  padding-bottom: 50px;
+  padding-left: 45px;
+  padding-right: 45px;
+  margin-top: 10px;
+  margin-left: 15px;
+  overflow: scroll;
+}
+
+.content {
+  line-height: 3;
+}
+
+.name {
+  line-height: 3;
+  color: #111111;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+h4 {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 2;
+  text-align: justify;
+  hyphens: auto;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 3;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.footer {
+  line-height: 2.5;
+  position: absolute;
+  bottom: 30px;
+  font-family: Merriweather;
+  font-size: 14px;
+  letter-spacing: 0.07em;
+}
+
+.spanstyle {
+  position: relative;
+  top: 170px;
+  left: 20px;
+  color: #00000097;
+  font-size: 24px;
+  line-height: 1.4;
+  background: white;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+}
+
+span:empty::before {
+  content: "Click anywhere to start.";
+}
+
+.highlight {
+  box-shadow: 5px 0 0 #000, -5px 0 0 #000;
+  padding-right: 100px;
+}
+.bnt {
+  color: #00000097;
+  font-size: 14px;
+  line-height: 1.4;
+  background: white;
+  padding: 0.25em 0;
+}
+
+.image {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+form {
+  position: absolute;
+  left: 505px;
+  top: 493px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+form button {
+  width: 60px;
+  margin: 0 auto;
+}
+
+button:focus {
+  outline: 0;
+}
+
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
